@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 1 */
+nav {
+    padding: 10px;
+    background-color: rgb(104, 103, 103);
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+img {
+    padding: 40px;
+
+}
+
+/* 4 */
+footer h3 {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    nav {
+        background-color: white;
+    }
+
+    nav li a {
+        color: rgb(99, 98, 98);
+        font-size: large;
+        font-family: monospace;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+    }
+
+}
